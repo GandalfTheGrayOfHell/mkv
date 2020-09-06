@@ -1,0 +1,18 @@
+[package]
+name = "mkv"
+version = "0.1.0"
+authors = ["Tanishq Jain <tanishqjain1002@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.3"
+md5 = "0.7.0"
+base64 = "0.12.3"
+reqwest = { version = "0.10", features = ["blocking"] }
+tiny_http = "0.7.0"
+crossbeam = "0.7.3"
+serde = { version = "1.0.115", features = ["derive"] }
+serde_json = "1.0.57"
+ascii = "1.0.0"
